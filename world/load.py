@@ -1,6 +1,6 @@
 from pathlib import Path
 from django.contrib.gis.utils import LayerMapping
-from ..geodjango.models import WorldBorder
+from .models import WorldBorder
 
 world_mapping = {
     "fips": "FIPS",
